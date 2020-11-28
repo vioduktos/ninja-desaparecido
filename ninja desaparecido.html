@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="ninja.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                $(this).hide();
+                
+            });
+            $("#mostrar").click(function(){
+                $("img").show();
+
+            })
+            
+
+        });   
+        </script>
+</head>
+<body>
+    <div id="container">
+    <img id="ninja" src="wordpress-ninja.png" alt="">
+    <img id="ninja1" src="wordpress-ninja.png" alt="">
+    <img id="ninja2" src="wordpress-ninja.png" alt="">
+    <img id="ninja3" src="wordpress-ninja.png" alt="">
+    <img id="ninja4" src="wordpress-ninja.png" alt="">
+    <img id="ninja5" src="wordpress-ninja.png" alt="">
+    <img id="ninja6" src="wordpress-ninja.png" alt="">
+    <img id="ninja7" src="wordpress-ninja.png" alt="">
+    <input type="button" id="mostrar" value="mostrar">
+</div>
+</body>
+</html>
